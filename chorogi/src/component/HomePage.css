@@ -1,0 +1,144 @@
+.collection-box {
+  height: 600px;
+  background-image: url('./mainBack.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.collection-box-info {
+  margin: 115px 0 140px 125px;
+}
+
+.collection-box h2 {
+  font-size: 50px;
+  color: #555;
+}
+
+.collection-box-list {
+  display: flex;
+  margin-top: 40px;
+}
+
+.collection-box-item {
+  width: 267px;
+  height: 276px;
+  margin-right: 25px;
+  border: 1px solid #0F9253;
+  text-align: center;
+  white-space: pre-line;
+  background-color: #fff;
+}
+
+.collection-box-item:last-child {
+  margin-right: 0;
+}
+
+.collection-box-item .title {
+  margin-top: 40px;
+  font-size: 26px;
+  font-weight: 700;
+  color: #185808;
+}
+
+.collection-box-item img {
+  width: 80px;
+  height: 80px;
+  margin: 25px 0 20px 0;
+}
+
+.carbon-neutral {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carbon-neutral-text {
+  margin-top: 90px;
+  text-align: center;
+}
+
+.carbon-neutral-text p:first-child {
+  width: 187px;
+  margin: 0 auto;
+  padding: 5px 0;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #73C16B;
+}
+
+.carbon-neutral-text h2 {
+  margin-top: 12px;
+  font-size: 38px;
+  font-weight: 700;
+  color: #353535;
+}
+
+.carbon-neutral-text p:last-child {
+  margin-top: 9px;
+  color: #6C6C6C;
+}
+
+.card-list {
+  display: flex;
+  width: 1180px;
+  height: 430px;
+  margin: 60px auto 100px auto;
+}
+
+.card-item {
+  position: relative;
+  flex-grow: 1;
+  transition: flex 500ms;
+  border: 1px solid #D8EFC2;;
+}
+
+.card-item:nth-child(1) {
+  background-color: #fff;
+}
+
+.card-item:nth-child(2) {
+  background-color: #C2EAB7;
+}
+
+.card-item:nth-child(3) {
+  background-color: #D2F2C9;
+}
+
+.card-item h3 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: #185808;
+}
+
+.caption {
+  
+}
+
+.caption ul {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.caption button {
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #ddd;
+}
+
+.caption button a {
+  color: #1E216A;
+}
+
+.card-item img {
+  position: absolute;
+  width: 300px;
+}
