@@ -1,0 +1,38 @@
+footer {
+  position: relative;
+  padding: 15px;
+  color: #ffffff;
+  background-color: #32785E;
+}
+
+.wrapper {
+  display: flex;
+  margin: 50px;
+}
+
+.wrapper img {
+  width: 100px;
+}
+
+.wrapper p {
+  font-size: 24px; 
+}
+
+.footer-bar {
+  margin: 0 30px;
+  content: '';
+  width: 1px;
+  height: 60px;
+  border: 1px solid #fff;
+}
+
+.footer-list {
+  position: absolute;
+  top: 60px;
+  right: 50px;
+}
+
+.footer-list li {
+  font-size: 16px;
+  text-align: right;
+}

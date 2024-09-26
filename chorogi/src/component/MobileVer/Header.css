@@ -1,0 +1,23 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.sidebar li a {
+  color: #2F973A;
+}
+
+.sub {
+  width: 150px;
+}
+
+.sub li a {
+  display: block;
+  width: 100%;
+  padding: 16px 0;
+  color: #555;
+}

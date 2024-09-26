@@ -1,0 +1,37 @@
+.box-list {
+  margin: 1.5rem;
+}
+
+.box-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.box-item:nth-child(1) {
+  padding: 3rem 0;
+  background-color: #EEF6E3;
+}
+
+.box-item img {
+  height: 10rem;
+  margin-bottom: 1rem;
+}
+
+.box-item span{
+  margin-top: 1rem;
+  font-weight: 700;
+  font-size: 16px;
+  background-color: #FFF27E;
+}
+
+.box-item p {
+  line-height: 2.5rem;
+  margin: .5rem;
+  font-size: 1.4rem;
+  white-space: pre-line;
+}

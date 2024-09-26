@@ -1,0 +1,24 @@
+footer {
+  padding: 1.5rem;
+  color: #ffffff;
+  background-color: #32785E;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.wrapper img {
+  object-fit: contain;
+  width: 6rem;
+}
+
+.wrapper p {
+  font-size: 1rem; 
+  padding: 1rem;
+}
+
+.footer-list li {
+  font-size: 0.9rem;
+  text-align: left;
+}
